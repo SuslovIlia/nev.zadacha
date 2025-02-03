@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding: 50px 0; */
+    /* font-weight: 500; */
+    background-color: #222;
+    color: white;
+}
+.check_list {
+    display: block;
+    /* margin: ; */
+    align-items: flex-start;
+    column-gap: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.check_list-box {
+    background-color: white;
+    padding: 20px 30px;
+    color: #222;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.h3-zadacha {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.p-zadacha {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.good {
+    padding: 5px 3px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+.good:hover{
+    background-color: green;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    
+}
+.notGood {
+    padding: 5px 3px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.notGood:hover{
+    background-color: red;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.delite{
+    float: right;
+    /* margin-left: auto; */
+    
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+/* ------------------ */
+
+.add-zadacha {
+    display: block;
+    margin-bottom: 20px;
+    margin: 10px auto;
+    padding: 10px 30px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.2s ease-in;
+    font-weight: 600;
+    cursor: pointer;
+}
+.add-zadacha:hover{
+    background-color: rgb(61, 61, 251);
+    color: white;
+}
+
+/* ------------------ */
+.form{
+    display: flex;
+    width: 300px;
+    margin: 30px auto;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.date {
+    padding: 10px;
+    height: 30px;
+
+}
+.nev-zadacha {
+    resize: vertical;
+    width: 100%;
+    height: 200px;
+    padding: 10px ;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.nev_close{
+    display: flex;
+}
+.close-form{
+    cursor: pointer;
+    border: none;
+    display: block;
+    width: 50%;
+}
+.close-form:hover{
+    background-color: green;
+}
+.dont_close-form{
+    cursor: pointer;
+    border: none;
+    display: block;
+    width: 50%;
+}
+.dont_close-form:hover{
+    background-color: rgb(61, 61, 251);
+}
+
+.task-completed {
+    background-color: rgb(38, 172, 38);
+    color: white;
+}
+
+.task-failed {
+    background-color: rgb(204, 42, 42);
+    color: white;
+}
+.hidden{
+    display: none;
+}
+/* -------------- */
+
+
+.header {
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #222; /* Цвет фона */
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc; /* Линия внизу */
+}
+.contener {
+    display: flex;
+    gap: 10px; 
+}
+.kalkelator_button,
+.notification {
+    text-decoration: none;
+    /* color: #fff; */
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.kalkelator_button:hover,
+.notification:hover {
+    background-color: rgb(61, 61, 251); /* Цвет при наведении */
+}
+.kalkelator_button:active,
+.notification:active {
+    background-color: rgb(61, 61, 251); /* Цвет при нажатии */
+}
+.go_calkulator,
+.go_notification {
+    text-decoration: none;
+    color: black;
+}
+
+
